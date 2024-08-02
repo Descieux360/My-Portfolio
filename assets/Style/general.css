@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+/* body{
+ padding-bottom: 500px;   
+} */
+
+:root{
+    --red:#EE5A4E;
+    --blue: #6488EA;
+    --light1:#e4e4e4;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+textarea{
+    padding: 10px;
+}

@@ -1,0 +1,149 @@
+
+@media (max-width:1000px) {
+    #header{
+        width:90%;
+        margin:0 10px;
+    }
+
+    .container{
+        width:90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:700px) {
+    body{
+        position: relative;
+    }
+     header{
+      padding: 0 10px;
+     }
+     #header{
+        flex-direction: column;
+
+     }
+     #nav {
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding: 10px 0 0 0;
+        align-self: flex-start;
+    }
+    .menu i{
+        font-size: 25px;
+        width: 40px;
+        padding:10px;
+    }
+
+    #hero{
+        height: max-content;        
+    }
+
+    #hero h2{
+        text-align: left;
+    }
+
+    #hero .container{
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid_projects{
+        display: grid;
+        align-content: center;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .grid_project:nth-child(1){
+        grid-column-start: 0; grid-column-end: 1;
+    }
+    
+    .grid_project:nth-child(4){
+        grid-column-start: 0; grid-column-end: 1;  
+    }
+    
+    .grid_project:nth-child(5){
+        grid-column-start: 0; grid-column-end: 1;  
+    }
+
+    .skill_content{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width:100%;
+    gap:20px;
+    }
+
+    .programming_language img{
+      width:48px;
+      height: 48px;
+   }
+
+   .social_media_content{
+     display: block; 
+   }
+
+   .copyright{
+    flex-direction: column;
+    align-items: center;
+   }
+   .copy{
+    text-align: left;
+    width:100%;
+    padding: 15px 0;
+   }
+   .question{
+    display: block;
+   }
+   .question p{
+    padding:7px 0;
+    display: flex;
+   }
+
+   .copy_name{
+    text-align: left;
+   }
+}
+
+@media  (min-width:1440px) {
+    #logo a{
+        font-size:40px;
+    }
+
+    #header nav ul li a {
+      font-size: 22px;
+    }
+
+    .container h4 {
+        font-size: 33px;
+    }
+
+    .container h2 {
+        font-size: 50px;
+    }
+
+    .container h3 {
+        font-size: 39px;
+    }
+
+    .hire_container{
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+    }
+
+    .container .hire {
+      padding: 28px 35px;
+      font-size: 28px;      
+    }
+
+    .container .about_me {
+      padding: 25px 35px;
+      font-size: 28px;
+    } 
+}
+
