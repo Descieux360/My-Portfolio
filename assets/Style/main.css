@@ -10,8 +10,8 @@ section{
 }
 
 #hero{
-    background-image: url('/assets/images/hero.jpg');
-    background-position: top left ;
+    background-image: url('/assets/images/hero.png');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 550px;
@@ -137,8 +137,11 @@ section{
 .grid_project img{
    display: block;
    width: 100%;
-   height: 280px;
+   min-width: 200px;
+   min-height: 295px;
+   height: 100%;
    object-fit: cover;
+
 }
 
 /* Skills */

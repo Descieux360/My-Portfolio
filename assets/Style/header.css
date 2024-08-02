@@ -50,10 +50,10 @@ header{
     padding-bottom: 2px;
 }
 
-#header nav ul li a:active{
+/* #header nav ul li a:active{
     color: var(--red);
     border-bottom:2px solid var(--red);
-}
+} */
 
 #header nav ul li a:hover{
     color: var(--red);
