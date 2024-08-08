@@ -13,7 +13,7 @@ const gridReveal = document.querySelectorAll('.grid_project');
 for(let i = 0; i < gridReveal.length; i++){
   gridReveal[i].addEventListener('mouseover' , ()=>{
     gridReveal[i].childNodes[3].childNodes[1].classList.add('.project_images');
-    gridReveal[i].childNodes[3].childNodes[1].style.opacity = '0.3'; 
+    gridReveal[i].childNodes[3].childNodes[1].style.opacity = '0.1'; 
     gridReveal[i].childNodes[1].classList.remove('grid_project_paragraph_dormant');
   })
   gridReveal[i].addEventListener('mouseout' , ()=>{
