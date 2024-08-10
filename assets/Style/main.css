@@ -254,8 +254,10 @@ section{
 
 #contacts h3{
   text-align: center;
+  align-self: center;
   font-size:17px;
   margin-bottom: 15px;
+  padding-top: 0;
 }
 #contacts .container h2{
     align-self: center;
@@ -361,4 +363,17 @@ section{
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.version{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    position: absolute;
+    font-family: comic sans ms;
+    font-weight: lighter;
+    font-size: 12px;
+    opacity: 40%;
+    top: 90%;
+    left: 90%;
 }

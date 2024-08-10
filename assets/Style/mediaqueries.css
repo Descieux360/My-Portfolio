@@ -97,6 +97,10 @@
         width:100%;
     }
 
+    .hire_container{
+        align-self: flex-start;
+    }
+
     .skill_content{
     padding: 20px 0;
     display: grid;
@@ -134,6 +138,12 @@
 
    .copy_name{
     text-align: left;
+   }
+
+   .version{
+     top: 7%;
+     left: 78%;
+     opacity: 40%;
    }
 }
 
