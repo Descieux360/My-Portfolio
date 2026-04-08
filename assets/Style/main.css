@@ -200,19 +200,23 @@ section{
 }
 
 .skill_container:nth-child(1)  .progress_bar hr{
-    width:90%;
+    width:100%;
 }
 
 .skill_container:nth-child(2)  .progress_bar hr{
-    width:80%;
+    width:100%;
 }
 
 .skill_container:nth-child(3)  .progress_bar hr{
-    width:60%;
+    width:90%;
 }
 
 .skill_container:nth-child(4)  .progress_bar hr{
     width:70%;
+}
+
+.skill_container:nth-child(5)  .progress_bar hr{
+    width:80%;
 }
 
 .programming_language{
